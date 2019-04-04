@@ -1,0 +1,49 @@
+/*
+* Ruth Wilhelm
+* 4/1/19 
+* Padua Panda Travel Agency  
+*/ 
+
+/* The universial selector */
+
+* { 
+} 
+
+/* Body attributes here */
+
+body { 
+    background-color: #33DDFF; /* This is the background color for the whole page. */
+    font-family: "Courier New", monospace; /* The font is Courier New, which looks like typewriter font. */
+} 
+
+/* I wanted my two main headings to be centered. (I found the tag on the W3 schools CSS website.) */
+
+h1 {
+    text-align: center; /* This is my main heading that says "Travel to the Florida Keys! */
+}
+
+h2 {
+    text-align: center; /* This is my subheading that says "With Padua Panda Travel"*/ 
+}
+
+table { 
+    background-color: #D1DADC; /* My table is light gray to compliment the blue background.*/ 
+    border: 10px solid aquamarine;
+}
+
+td {
+    border: 1px solid black; /* This makes the data cells have a navy blue order to make the thead section's navy blue background.*/ 
+}
+
+thead {
+    background-color: navy; /* The table's head section is a nice nautical navy blue!*/
+    color: white; /* Since I changed the background to navy, the text had to be a light white so that you could read it. */ 
+}
+
+img { 
+    width: 450px; height: 300px; /* These settings are for most of my images, which are closer to squares than rectangles. */ 
+}
+
+#rectanglemap { 
+    width: 600px; height: 300px; /* My image of a map of the Florida Keys is a much longer rectangle. */ 
+}
